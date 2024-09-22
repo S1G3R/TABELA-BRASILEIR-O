@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #303030;
+}
+
+a{
+    text-align: center;
+}
+
+.tabela-brasileirao {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-brasileirao th, 
+.tabela-brasileirao td {
+    padding: 12px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.tabela-brasileirao th {
+    background-color: #014480;
+    color: white;
+}
+
+.tabela-brasileirao tr:nth-child(even) {
+    background-color: #cecece;
+}
+
+.tabela-brasileirao tr:hover {
+    background-color: #ffffff;
+}
+
+.tabela-brasileirao td {
+    font-size: 14px;
+}
+
+.tabela-brasileirao th {
+    font-size: 16px;
+}
